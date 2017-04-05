@@ -1,0 +1,101 @@
+﻿<Window x:Class="WPF_Restaurante.Ventana_Reservacion"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Reservaciones/Mesa" Height="600" Width="800" WindowState="Maximized" WindowStartupLocation="CenterScreen" Foreground="#FF222222">
+    <Grid>
+        <StackPanel>
+            <WrapPanel Margin="5">
+                <Button Content="Inicio" Margin="5 0" Click="Button_Click_2"/>
+                <Button Content="Platillos/Ingredientes" Margin="5 0" Click="Button_Click_1"/>
+                <Button Content="Distribuidores/Almacen" Margin="5 0" Click="Button_Click"/>
+                <Button Content="Reservacion/Mesa" Margin="5 0"/>
+            </WrapPanel>
+            <TabControl>
+                <TabItem Header="Reservacion">
+                    <Grid Background="#FFE5E5E5">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <StackPanel Grid.Column="0" Margin="5">
+                            <ListView ItemsSource="{Binding ListadoReservaciones}" SelectedItem="{Binding ReservacionActual}" IsSynchronizedWithCurrentItem="True">
+                                <ListView.View>
+                                    <GridView>
+                                        <GridViewColumn Header="Nombre cliente" DisplayMemberBinding="{Binding Cliente.Nombre}"/>
+                                        <GridViewColumn Header="Fecha" DisplayMemberBinding="{Binding Fecha, StringFormat={}{0:dd/MM/yyyy}}"/>
+                                        <GridViewColumn Header="Hora" DisplayMemberBinding="{Binding Hora, StringFormat={}{0:hh:mm tt}}"/>
+                                    </GridView>
+                                </ListView.View>
+                            </ListView>
+                            <Button Content="Agregar Reservacion" Margin="5" Click="Button_Click_3"/>
+                        </StackPanel>
+                        <StackPanel Grid.Column="1" Margin="5 0">
+                            <WrapPanel>
+                                <Label Content="Cedula"/>
+                                <TextBox Text="{Binding ReservacionActual.Cliente.Cedula}" Width="90" Height="23"/>
+                                <Label Content="Nombre"/>
+                                <TextBox Text="{Binding ReservacionActual.Cliente.Nombre}" Width="100" Height="23"/>
+                                <Label Content="Apellido"/>
+                                <TextBox Text="{Binding ReservacionActual.Cliente.Apellido}" Width="100" Height="23"/>
+                                <Label Content="Telefono"/>
+                                <TextBox Text="{Binding ReservacionActual.Cliente.Telefono}" Width="100" Height="23"/>
+                            </WrapPanel>
+                            <WrapPanel>
+                                <Label Content="Fecha"/>
+                                <DatePicker SelectedDate="{Binding ReservacionActual.Fecha}" Width="170" Height="23"/>
+                                <Label Content="Hora"/>
+                                <TextBox Text="{Binding ReservacionActual.Hora, StringFormat={}{0:hh:mm tt}}" Width="Auto" Height="23"/>
+                                <Label Content="Mesa"/>
+                                <ComboBox ItemsSource="{Binding ListadoMesas}" SelectedItem="{Binding ReservacionActual.Mesa}" Width="Auto" Height="23" SelectionChanged="ComboBox_SelectionChanged"/>
+                            </WrapPanel>
+                            <ListView Height="100" ItemsSource="{Binding ReservacionActual.Extras}">
+                                <ListView.View>
+                                    <GridView>
+                                        <GridViewColumn/>
+                                    </GridView>
+                                </ListView.View>
+                            </ListView>
+                            <ComboBox ItemsSource="{Binding ListadoExtras}" SelectedItem="{Binding ExtraActual}"/>
+                            <Button Content="Añadir extra" Click="Button_Click_8"/>
+                            <WrapPanel>
+                                <Label Content="Total: $"/>
+                                <Label Content="{Binding ReservacionActual.Total}"/>
+                            </WrapPanel>
+                            <Button Content="Guardar Reservacion" Click="Button_Click_4"/>
+                            
+                        </StackPanel>
+                    </Grid>
+                </TabItem>
+                <TabItem Header="Mesa">
+                    <Grid Background="#FFE5E5E5">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <StackPanel Grid.Column="0" Margin="5">
+                            <ListView ItemsSource="{Binding ListadoMesas}" SelectedItem="{Binding MesaActual}" IsSynchronizedWithCurrentItem="True">
+                                <ListView.View>
+                                    <GridView>
+                                        <GridViewColumn Header="Numero" DisplayMemberBinding="{Binding Numero}"/>
+                                        <GridViewColumn Header="Cantidad de sillas" DisplayMemberBinding="{Binding CantidadSillas}"/>
+                                    </GridView>
+                                </ListView.View>
+                            </ListView>
+                            <Button Content="Agregar Mesa" Margin="5" Click="Button_Click_5"/>
+                            <Button Content="Eliminar Mesa seleccionada" Margin="5" Click="Button_Click_7"/>
+                        </StackPanel>
+                        <StackPanel Grid.Column="1" Margin="5 0">
+                            <WrapPanel>
+                                <Label Content="Numero"/>
+                                <TextBox Text="{Binding MesaActual.Numero}" Width="Auto" Height="23" IsEnabled="False"/>
+                                <Label Content="Cantidad de Sillas"/>
+                                <TextBox Text="{Binding MesaActual.CantidadSillas}" Width="Auto" Height="23"/>
+                            </WrapPanel>
+                            <Button Content="Guardar Mesa" Click="Button_Click_6"/>
+                        </StackPanel>
+                    </Grid>
+                </TabItem>
+            </TabControl>
+        </StackPanel>
+    </Grid>
+</Window>

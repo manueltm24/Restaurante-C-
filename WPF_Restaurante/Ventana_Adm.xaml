@@ -1,0 +1,145 @@
+﻿<Window x:Class="WPF_Restaurante.Ventana_Adm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Restaurante Panchita Feliz - Administración y Facturación" Height="600" Width="1024" WindowState="Maximized" WindowStartupLocation="CenterScreen" Foreground="#FF222222">
+    <Grid>
+        <StackPanel>
+            <WrapPanel Margin="5">
+                <Button Content="Inicio" Margin="5 0"/>
+                <Button Content="Platillos/Ingredientes" Click="Button_Click_3" Margin="5 0"/>
+                <Button Content="Distribuidores/Almacen" Margin="5 0" Click="Button_Click_4"/>
+                <Button Content="Reservacion/Mesa" Margin="5 0" Click="Button_Click_5"/>
+            </WrapPanel>
+            <TabControl>
+                <TabItem Header="Historial">
+                    <Grid Background="#FFE5E5E5">
+                        <StackPanel>
+                            <Label Content="{Binding Historial}"/>
+                        </StackPanel>
+                    </Grid>
+                </TabItem>
+                <TabItem Header="Facturas">
+                    <Grid Background="#FFE5E5E5">
+                        <StackPanel>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+                                <WrapPanel Grid.Column="0">
+                                    <Label Content="Id"/>
+                                    <TextBox Text="{Binding FacturaActual.Id}" Width="70" Height="23" IsEnabled="False"/>
+                                    <Label Content="Fecha"/>
+                                    <DatePicker SelectedDate="{Binding FacturaActual.Fecha}"/>
+                                </WrapPanel>
+                                <WrapPanel Grid.Column="1">
+                                    <Button Content="Listado de facturas" Width="150" Margin="5 0" Click="Button_Click_1"/>
+                                </WrapPanel>
+                            </Grid>
+                            <GroupBox Header="Lista de compra">
+                                <StackPanel>
+                                    <ListView Height="200" ItemsSource="{Binding FacturaActual.Platillos}" IsSynchronizedWithCurrentItem="True" SelectedItem="{Binding PlatilloABorrar}">
+                                        <ListView.View>
+                                            <GridView>
+                                                <GridViewColumn Header="Nombre" DisplayMemberBinding="{Binding Nombre}"/>
+                                                <GridViewColumn Header="Cantidad" DisplayMemberBinding="{Binding Cantidad}"/>
+                                                <GridViewColumn Header="Precio" DisplayMemberBinding="{Binding Precio}"/>
+                                            </GridView>
+                                        </ListView.View>
+                                    </ListView>                                
+                                    <Label Content="Añadir"/>
+                                    <ComboBox ItemsSource="{Binding ListadoPlatillos}" SelectedValue="{Binding PlatilloActual}" SelectedValuePath="{Binding a}" SelectionChanged="ComboBox_SelectionChanged"/>
+                                    <Label Content="Cantidad"/>
+                                    <TextBox Text="{Binding CantidadAgregar}"/>
+                                    <Button Content="Añadir" Click="Button_Click"/>
+                                    <WrapPanel>
+                                        <Label Content="Total: $"/>
+                                        <Label Content="{Binding FacturaActual.Total}"/>
+                                    </WrapPanel>
+                                    <Button Content="Guardar factura" Click="Button_Click_2"/>
+                                </StackPanel>
+                            </GroupBox>
+                        </StackPanel>        
+                    </Grid>
+                </TabItem>
+                <TabItem Header="Empleados">
+                    <Grid Background="#FFE5E5E5">
+                        <StackPanel>
+                            <StackPanel>
+                                <StackPanel>
+                                    <Label Content="Listado de Empleados" BorderThickness="0,0,0,1" BorderBrush="#ff222222"/>
+                                    <ListView IsSynchronizedWithCurrentItem="True" ItemsSource="{Binding ListadoEmpleados}" SelectedItem="{Binding EmpleadoActual}" Margin="5 5">
+                                        <ListView.View>
+                                            <GridView>
+                                                <GridViewColumn Header="Id" DisplayMemberBinding="{Binding Id}"/>
+                                                <GridViewColumn Header="Nombre" DisplayMemberBinding="{Binding Nombre}"/>
+                                                <GridViewColumn Header="Apellido" DisplayMemberBinding="{Binding Apellido}"/>
+                                                <GridViewColumn Header="Cargo" DisplayMemberBinding="{Binding Cargo}"/>
+                                            </GridView>
+                                        </ListView.View>
+                                    </ListView>
+                                    <Button Content="Agregar Empleado" Margin="5" Click="Button_Click_6" />
+                                </StackPanel>
+                                <Grid>
+                                    <GroupBox Header="Informacion del Empleado" Margin="5">
+                                        <StackPanel>
+                                            <Label Content="Id"/>
+                                            <TextBox x:Name="tb_id" Height="23" Text="{Binding EmpleadoActual.Id}" Margin="5 0" Width="80" HorizontalAlignment="Left" IsEnabled="False"/>
+                                            <Grid>
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition/>
+                                                    <ColumnDefinition/>
+                                                </Grid.ColumnDefinitions>
+                                                <StackPanel Grid.Column="0" Margin="5 0">
+                                                    <Label Content="Nombre"/>
+                                                    <TextBox x:Name="tb_nombre" Height="23" Text="{Binding EmpleadoActual.Nombre}"/>
+                                                    <Label Content="Sexo"/>
+                                                    <ComboBox x:Name="cb_sexo" Height="23" ItemsSource="{Binding TipoGeneroSexual}" DisplayMemberPath="Value" SelectedValuePath="Key" SelectedValue="{Binding EmpleadoActual.Sexo}"/>
+                                                    <Label Content="Hora de entrada"/>
+                                                    <TextBox x:Name="tb_hEntrada" Height="23"  Text="{Binding EmpleadoActual.HoraDeEntrada, StringFormat={}{0:hh:mm tt}}"/>
+                                                    <Label Content="Cargo"/>
+                                                    <ComboBox x:Name="cb_cargo" Height="23" ItemsSource="{Binding TipoCargos}" DisplayMemberPath="Value" SelectedValuePath="Key" SelectedValue="{Binding EmpleadoActual.Cargo}"/>
+                                                    <Label Content="Pago por horas extras"/>
+                                                    <TextBox Text="{Binding EmpleadoActual.PagoPorHorasExtras}"/>
+                                                </StackPanel>                                                
+                                                <StackPanel Grid.Column="1" Margin="5 0">
+                                                    <Label Content="Apellido"/>
+                                                    <TextBox x:Name="tb_apellido" Height="23" Text="{Binding EmpleadoActual.Apellido}"/>
+                                                    <Label Content="Sueldo"/>
+                                                    <TextBox x:Name="tb_sueldo" Height="23" Text="{Binding EmpleadoActual.Sueldo}"/>
+                                                    <Label Content="Hora de Salida"/>
+                                                    <TextBox x:Name="tb_hSalida" Height="23" Text="{Binding EmpleadoActual.HoraDeSalida, StringFormat={}{0:hh:mm tt}}"/>
+                                                    <Label Content="Día de trabajo"/>
+                                                    <ComboBox x:Name="cb_diaTrabajo" Height="23" ItemsSource="{Binding Dias}" DisplayMemberPath="Value" SelectedValuePath="Key" SelectedValue="{Binding EmpleadoActual.DiaDeTrabajo}"/>
+                                                    <Label Content="Horas extras"/>
+                                                    <TextBox Text="{Binding EmpleadoActual.HorasExtras}"/>                                                    
+                                                </StackPanel>
+                                            </Grid>
+                                            <Button Content="Calcular sueldo total" Click="Button_Click_7"/>
+                                            <Label Content="Sueldo total:" HorizontalAlignment="Center"/>
+                                            <Label Content="{Binding EmpleadoActual.SueldoTotal}" HorizontalAlignment="Center"/>
+                                            <Button x:Name="bt_guardar" Height="23" Content="Guardar Empleado" Margin="5" Click="bt_guardar_Click"/>
+                                        </StackPanel>
+                                    </GroupBox>
+                                </Grid>
+                            </StackPanel>
+                        </StackPanel>
+                    </Grid>
+                </TabItem>
+                <TabItem Header="Ganacias/Perdidas" GotFocus="TabItem_GotFocus">
+                    <Grid Background="#FFE5E5E5">
+                        <StackPanel>
+                            <Label Content="Ingresos"/>
+                            <Label Content="{Binding Restaurante.Ganancias}"/>
+                            <Label Content="Gastos"/>
+                            <Label Content="{Binding Restaurante.Perdidas}"/>
+                            <Label Content="Total"/>
+                            <Label Content="{Binding Restaurante.Total}"/>
+                            <Label x:Name="Mensaje" Content="..."/>
+                        </StackPanel>
+                    </Grid>
+                </TabItem>
+            </TabControl>
+        </StackPanel>
+    </Grid>
+</Window>

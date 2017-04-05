@@ -1,0 +1,178 @@
+C:\Users\Acount\Documents\Visual Studio 2013\Projects\Portafolio2_Restaurante\WPF_Restaurante\bin\Debug\WPF_Restaurante.exe.config
+C:\Users\Acount\Documents\Visual Studio 2013\Projects\Portafolio2_Restaurante\WPF_Restaurante\bin\Debug\WPF_Restaurante.exe
+C:\Users\Acount\Documents\Visual Studio 2013\Projects\Portafolio2_Restaurante\WPF_Restaurante\bin\Debug\WPF_Restaurante.pdb
+C:\Users\Acount\Documents\Visual Studio 2013\Projects\Portafolio2_Restaurante\WPF_Restaurante\obj\Debug\WPF_Restaurante.csprojResolveAssemblyReference.cache
+C:\Users\Acount\Documents\Visual Studio 2013\Projects\Portafolio2_Restaurante\WPF_Restaurante\obj\Debug\Inicio.baml
+C:\Users\Acount\Documents\Visual Studio 2013\Projects\Portafolio2_Restaurante\WPF_Restaurante\obj\Debug\Inicio.g.cs
+C:\Users\Acount\Documents\Visual Studio 2013\Projects\Portafolio2_Restaurante\WPF_Restaurante\obj\Debug\App.g.cs
+C:\Users\Acount\Documents\Visual Studio 2013\Projects\Portafolio2_Restaurante\WPF_Restaurante\obj\Debug\WPF_Restaurante_MarkupCompile.cache
+C:\Users\Acount\Documents\Visual Studio 2013\Projects\Portafolio2_Restaurante\WPF_Restaurante\obj\Debug\WPF_Restaurante.g.resources
+C:\Users\Acount\Documents\Visual Studio 2013\Projects\Portafolio2_Restaurante\WPF_Restaurante\obj\Debug\WPF_Restaurante.Properties.Resources.resources
+C:\Users\Acount\Documents\Visual Studio 2013\Projects\Portafolio2_Restaurante\WPF_Restaurante\obj\Debug\WPF_Restaurante.csproj.GenerateResource.Cache
+C:\Users\Acount\Documents\Visual Studio 2013\Projects\Portafolio2_Restaurante\WPF_Restaurante\obj\Debug\WPF_Restaurante.exe
+C:\Users\Acount\Documents\Visual Studio 2013\Projects\Portafolio2_Restaurante\WPF_Restaurante\obj\Debug\WPF_Restaurante.pdb
+E:\Cosas\Descargas\Portafolio2_Restaurante\WPF_Restaurante\bin\Debug\WPF_Restaurante.exe.config
+E:\Cosas\Descargas\Portafolio2_Restaurante\WPF_Restaurante\obj\Debug\WPF_Restaurante.exe
+E:\Cosas\Descargas\Portafolio2_Restaurante\WPF_Restaurante\obj\Debug\WPF_Restaurante.pdb
+E:\Cosas\Descargas\Portafolio2_Restaurante\WPF_Restaurante\bin\Debug\WPF_Restaurante.exe
+E:\Cosas\Descargas\Portafolio2_Restaurante\WPF_Restaurante\bin\Debug\WPF_Restaurante.pdb
+E:\Cosas\Descargas\Portafolio2_Restaurante\WPF_Restaurante\obj\Debug\WPF_Restaurante.csprojResolveAssemblyReference.cache
+E:\Cosas\Descargas\Portafolio2_Restaurante\WPF_Restaurante\obj\Debug\Inicio.baml
+E:\Cosas\Descargas\Portafolio2_Restaurante\WPF_Restaurante\obj\Debug\Inicio.g.cs
+E:\Cosas\Descargas\Portafolio2_Restaurante\WPF_Restaurante\obj\Debug\App.g.cs
+E:\Cosas\Descargas\Portafolio2_Restaurante\WPF_Restaurante\obj\Debug\WPF_Restaurante_MarkupCompile.cache
+E:\Cosas\Descargas\Portafolio2_Restaurante\WPF_Restaurante\obj\Debug\WPF_Restaurante.g.resources
+E:\Cosas\Descargas\Portafolio2_Restaurante\WPF_Restaurante\obj\Debug\WPF_Restaurante.Properties.Resources.resources
+E:\Cosas\Descargas\Portafolio2_Restaurante\WPF_Restaurante\obj\Debug\WPF_Restaurante.csproj.GenerateResource.Cache
+E:\Cosas\Descargas\Portafolio2_Restaurante\WPF_Restaurante\bin\Debug\Portafolio2_Restaurante.dll
+E:\Cosas\Descargas\Portafolio2_Restaurante\WPF_Restaurante\bin\Debug\Portafolio2_Restaurante.pdb
+E:\Cosas\Trabajos\1- Programacion 1\Portafolio2_RestauranteFamiliar\WPF_Restaurante\bin\Debug\WPF_Restaurante.exe.config
+E:\Cosas\Trabajos\1- Programacion 1\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\WPF_Restaurante.exe
+E:\Cosas\Trabajos\1- Programacion 1\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\WPF_Restaurante.pdb
+E:\Cosas\Trabajos\1- Programacion 1\Portafolio2_RestauranteFamiliar\WPF_Restaurante\bin\Debug\WPF_Restaurante.exe
+E:\Cosas\Trabajos\1- Programacion 1\Portafolio2_RestauranteFamiliar\WPF_Restaurante\bin\Debug\WPF_Restaurante.pdb
+E:\Cosas\Trabajos\1- Programacion 1\Portafolio2_RestauranteFamiliar\WPF_Restaurante\bin\Debug\Portafolio2_Restaurante.dll
+E:\Cosas\Trabajos\1- Programacion 1\Portafolio2_RestauranteFamiliar\WPF_Restaurante\bin\Debug\Portafolio2_Restaurante.pdb
+E:\Cosas\Trabajos\1- Programacion 1\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\WPF_Restaurante.csprojResolveAssemblyReference.cache
+E:\Cosas\Trabajos\1- Programacion 1\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\App.g.cs
+E:\Cosas\Trabajos\1- Programacion 1\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\WPF_Restaurante_MarkupCompile.cache
+E:\Cosas\Trabajos\1- Programacion 1\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\WPF_Restaurante.g.resources
+E:\Cosas\Trabajos\1- Programacion 1\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\WPF_Restaurante.Properties.Resources.resources
+E:\Cosas\Trabajos\1- Programacion 1\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\WPF_Restaurante.csproj.GenerateResource.Cache
+E:\Cosas\Trabajos\1- Programacion 1\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_ListadoFacturas.baml
+E:\Cosas\Trabajos\1- Programacion 1\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_ListadoFacturas.g.cs
+C:\Users\Acount\Desktop\Portafolio2_RestauranteFamiliar\WPF_Restaurante\bin\Debug\WPF_Restaurante.exe.config
+C:\Users\Acount\Desktop\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\WPF_Restaurante.exe
+C:\Users\Acount\Desktop\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\WPF_Restaurante.pdb
+C:\Users\Acount\Desktop\Portafolio2_RestauranteFamiliar\WPF_Restaurante\bin\Debug\WPF_Restaurante.exe
+C:\Users\Acount\Desktop\Portafolio2_RestauranteFamiliar\WPF_Restaurante\bin\Debug\WPF_Restaurante.pdb
+C:\Users\Acount\Desktop\Portafolio2_RestauranteFamiliar\WPF_Restaurante\bin\Debug\Portafolio2_Restaurante.dll
+C:\Users\Acount\Desktop\Portafolio2_RestauranteFamiliar\WPF_Restaurante\bin\Debug\Portafolio2_Restaurante.pdb
+C:\Users\Acount\Desktop\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\WPF_Restaurante.csprojResolveAssemblyReference.cache
+C:\Users\Acount\Desktop\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_Adm.baml
+C:\Users\Acount\Desktop\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_ListadoFacturas.baml
+C:\Users\Acount\Desktop\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_Adm.g.cs
+C:\Users\Acount\Desktop\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_ListadoFacturas.g.cs
+C:\Users\Acount\Desktop\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\App.g.cs
+C:\Users\Acount\Desktop\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\WPF_Restaurante_MarkupCompile.cache
+C:\Users\Acount\Desktop\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\WPF_Restaurante.g.resources
+C:\Users\Acount\Desktop\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\WPF_Restaurante.Properties.Resources.resources
+C:\Users\Acount\Desktop\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\WPF_Restaurante.csproj.GenerateResource.Cache
+C:\Users\Acount\Desktop\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_PlatillosIngredientes.baml
+C:\Users\Acount\Desktop\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_PlatillosIngredientes.g.cs
+C:\Users\Acount\Desktop\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_DistribuidoresAlmacen.baml
+C:\Users\Acount\Desktop\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_DistribuidoresAlmacen.g.cs
+C:\Users\Acount\Desktop\Programacion 1\Portafolio2_RestauranteFamiliar\WPF_Restaurante\bin\Debug\WPF_Restaurante.exe.config
+C:\Users\Acount\Desktop\Programacion 1\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\WPF_Restaurante.exe
+C:\Users\Acount\Desktop\Programacion 1\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\WPF_Restaurante.pdb
+C:\Users\Acount\Desktop\Programacion 1\Portafolio2_RestauranteFamiliar\WPF_Restaurante\bin\Debug\WPF_Restaurante.exe
+C:\Users\Acount\Desktop\Programacion 1\Portafolio2_RestauranteFamiliar\WPF_Restaurante\bin\Debug\WPF_Restaurante.pdb
+C:\Users\Acount\Desktop\Programacion 1\Portafolio2_RestauranteFamiliar\WPF_Restaurante\bin\Debug\Portafolio2_Restaurante.dll
+C:\Users\Acount\Desktop\Programacion 1\Portafolio2_RestauranteFamiliar\WPF_Restaurante\bin\Debug\Portafolio2_Restaurante.pdb
+C:\Users\Acount\Desktop\Programacion 1\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\WPF_Restaurante.csprojResolveAssemblyReference.cache
+C:\Users\Acount\Desktop\Programacion 1\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_Adm.baml
+C:\Users\Acount\Desktop\Programacion 1\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_DistribuidoresAlmacen.baml
+C:\Users\Acount\Desktop\Programacion 1\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_ListadoFacturas.baml
+C:\Users\Acount\Desktop\Programacion 1\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_PlatillosIngredientes.baml
+C:\Users\Acount\Desktop\Programacion 1\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_Adm.g.cs
+C:\Users\Acount\Desktop\Programacion 1\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_DistribuidoresAlmacen.g.cs
+C:\Users\Acount\Desktop\Programacion 1\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_ListadoFacturas.g.cs
+C:\Users\Acount\Desktop\Programacion 1\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_PlatillosIngredientes.g.cs
+C:\Users\Acount\Desktop\Programacion 1\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\App.g.cs
+C:\Users\Acount\Desktop\Programacion 1\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\WPF_Restaurante_MarkupCompile.cache
+C:\Users\Acount\Desktop\Programacion 1\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\WPF_Restaurante.g.resources
+C:\Users\Acount\Desktop\Programacion 1\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\WPF_Restaurante.Properties.Resources.resources
+C:\Users\Acount\Desktop\Programacion 1\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\WPF_Restaurante.csproj.GenerateResource.Cache
+C:\Users\Acount\Desktop\Programacion 1\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_ExistenciaAlmacen.baml
+C:\Users\Acount\Desktop\Programacion 1\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_ExistenciaAlmacen.g.cs
+C:\Users\Acount\Desktop\Programacion 1\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_Reservacion.baml
+C:\Users\Acount\Desktop\Programacion 1\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_Reservacion.g.cs
+E:\Cosas\Trabajos\1- Programacion 1\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_Adm.baml
+E:\Cosas\Trabajos\1- Programacion 1\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_DistribuidoresAlmacen.baml
+E:\Cosas\Trabajos\1- Programacion 1\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_ExistenciaAlmacen.baml
+E:\Cosas\Trabajos\1- Programacion 1\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_PlatillosIngredientes.baml
+E:\Cosas\Trabajos\1- Programacion 1\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_Reservacion.baml
+E:\Cosas\Trabajos\1- Programacion 1\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_Adm.g.cs
+E:\Cosas\Trabajos\1- Programacion 1\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_DistribuidoresAlmacen.g.cs
+E:\Cosas\Trabajos\1- Programacion 1\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_ExistenciaAlmacen.g.cs
+E:\Cosas\Trabajos\1- Programacion 1\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_PlatillosIngredientes.g.cs
+E:\Cosas\Trabajos\1- Programacion 1\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_Reservacion.g.cs
+E:\Cosas\Descargas\Portafolio2_RestauranteFamiliar (1)\Portafolio2_RestauranteFamiliar\WPF_Restaurante\bin\Debug\WPF_Restaurante.exe.config
+E:\Cosas\Descargas\Portafolio2_RestauranteFamiliar (1)\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\WPF_Restaurante.exe
+E:\Cosas\Descargas\Portafolio2_RestauranteFamiliar (1)\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\WPF_Restaurante.pdb
+E:\Cosas\Descargas\Portafolio2_RestauranteFamiliar (1)\Portafolio2_RestauranteFamiliar\WPF_Restaurante\bin\Debug\WPF_Restaurante.exe
+E:\Cosas\Descargas\Portafolio2_RestauranteFamiliar (1)\Portafolio2_RestauranteFamiliar\WPF_Restaurante\bin\Debug\WPF_Restaurante.pdb
+E:\Cosas\Descargas\Portafolio2_RestauranteFamiliar (1)\Portafolio2_RestauranteFamiliar\WPF_Restaurante\bin\Debug\Portafolio2_Restaurante.dll
+E:\Cosas\Descargas\Portafolio2_RestauranteFamiliar (1)\Portafolio2_RestauranteFamiliar\WPF_Restaurante\bin\Debug\Portafolio2_Restaurante.pdb
+E:\Cosas\Descargas\Portafolio2_RestauranteFamiliar (1)\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\WPF_Restaurante.csprojResolveAssemblyReference.cache
+E:\Cosas\Descargas\Portafolio2_RestauranteFamiliar (1)\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_Adm.baml
+E:\Cosas\Descargas\Portafolio2_RestauranteFamiliar (1)\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_DistribuidoresAlmacen.baml
+E:\Cosas\Descargas\Portafolio2_RestauranteFamiliar (1)\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_ExistenciaAlmacen.baml
+E:\Cosas\Descargas\Portafolio2_RestauranteFamiliar (1)\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_ListadoFacturas.baml
+E:\Cosas\Descargas\Portafolio2_RestauranteFamiliar (1)\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_PlatillosIngredientes.baml
+E:\Cosas\Descargas\Portafolio2_RestauranteFamiliar (1)\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_Reservacion.baml
+E:\Cosas\Descargas\Portafolio2_RestauranteFamiliar (1)\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_Adm.g.cs
+E:\Cosas\Descargas\Portafolio2_RestauranteFamiliar (1)\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_DistribuidoresAlmacen.g.cs
+E:\Cosas\Descargas\Portafolio2_RestauranteFamiliar (1)\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_ExistenciaAlmacen.g.cs
+E:\Cosas\Descargas\Portafolio2_RestauranteFamiliar (1)\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_ListadoFacturas.g.cs
+E:\Cosas\Descargas\Portafolio2_RestauranteFamiliar (1)\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_PlatillosIngredientes.g.cs
+E:\Cosas\Descargas\Portafolio2_RestauranteFamiliar (1)\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_Reservacion.g.cs
+E:\Cosas\Descargas\Portafolio2_RestauranteFamiliar (1)\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\App.g.cs
+E:\Cosas\Descargas\Portafolio2_RestauranteFamiliar (1)\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\WPF_Restaurante_MarkupCompile.cache
+E:\Cosas\Descargas\Portafolio2_RestauranteFamiliar (1)\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\WPF_Restaurante.g.resources
+E:\Cosas\Descargas\Portafolio2_RestauranteFamiliar (1)\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\WPF_Restaurante.Properties.Resources.resources
+E:\Cosas\Descargas\Portafolio2_RestauranteFamiliar (1)\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\WPF_Restaurante.csproj.GenerateResource.Cache
+C:\Users\Acount\Desktop\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_ExistenciaAlmacen.baml
+C:\Users\Acount\Desktop\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_Reservacion.baml
+C:\Users\Acount\Desktop\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_ExistenciaAlmacen.g.cs
+C:\Users\Acount\Desktop\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_Reservacion.g.cs
+C:\Users\Acount\Desktop\Programacion 1\Tarea 2\Portafolio2_RestauranteFamiliar\WPF_Restaurante\bin\Debug\WPF_Restaurante.exe.config
+C:\Users\Acount\Desktop\Programacion 1\Tarea 2\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\WPF_Restaurante.exe
+C:\Users\Acount\Desktop\Programacion 1\Tarea 2\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\WPF_Restaurante.pdb
+C:\Users\Acount\Desktop\Programacion 1\Tarea 2\Portafolio2_RestauranteFamiliar\WPF_Restaurante\bin\Debug\WPF_Restaurante.exe
+C:\Users\Acount\Desktop\Programacion 1\Tarea 2\Portafolio2_RestauranteFamiliar\WPF_Restaurante\bin\Debug\WPF_Restaurante.pdb
+C:\Users\Acount\Desktop\Programacion 1\Tarea 2\Portafolio2_RestauranteFamiliar\WPF_Restaurante\bin\Debug\Portafolio2_Restaurante.dll
+C:\Users\Acount\Desktop\Programacion 1\Tarea 2\Portafolio2_RestauranteFamiliar\WPF_Restaurante\bin\Debug\Portafolio2_Restaurante.pdb
+C:\Users\Acount\Desktop\Programacion 1\Tarea 2\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\WPF_Restaurante.csprojResolveAssemblyReference.cache
+C:\Users\Acount\Desktop\Programacion 1\Tarea 2\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_Adm.baml
+C:\Users\Acount\Desktop\Programacion 1\Tarea 2\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_DistribuidoresAlmacen.baml
+C:\Users\Acount\Desktop\Programacion 1\Tarea 2\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_ExistenciaAlmacen.baml
+C:\Users\Acount\Desktop\Programacion 1\Tarea 2\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_ListadoFacturas.baml
+C:\Users\Acount\Desktop\Programacion 1\Tarea 2\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_PlatillosIngredientes.baml
+C:\Users\Acount\Desktop\Programacion 1\Tarea 2\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_Reservacion.baml
+C:\Users\Acount\Desktop\Programacion 1\Tarea 2\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_Adm.g.cs
+C:\Users\Acount\Desktop\Programacion 1\Tarea 2\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_DistribuidoresAlmacen.g.cs
+C:\Users\Acount\Desktop\Programacion 1\Tarea 2\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_ExistenciaAlmacen.g.cs
+C:\Users\Acount\Desktop\Programacion 1\Tarea 2\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_ListadoFacturas.g.cs
+C:\Users\Acount\Desktop\Programacion 1\Tarea 2\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_PlatillosIngredientes.g.cs
+C:\Users\Acount\Desktop\Programacion 1\Tarea 2\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_Reservacion.g.cs
+C:\Users\Acount\Desktop\Programacion 1\Tarea 2\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\App.g.cs
+C:\Users\Acount\Desktop\Programacion 1\Tarea 2\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\WPF_Restaurante_MarkupCompile.cache
+C:\Users\Acount\Desktop\Programacion 1\Tarea 2\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\WPF_Restaurante.g.resources
+C:\Users\Acount\Desktop\Programacion 1\Tarea 2\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\WPF_Restaurante.Properties.Resources.resources
+C:\Users\Acount\Desktop\Programacion 1\Tarea 2\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\WPF_Restaurante.csproj.GenerateResource.Cache
+C:\Users\MT\Desktop\Portafolio2_RestauranteFamiliar\WPF_Restaurante\bin\Debug\WPF_Restaurante.exe.config
+C:\Users\MT\Desktop\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\WPF_Restaurante.exe
+C:\Users\MT\Desktop\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\WPF_Restaurante.pdb
+C:\Users\MT\Desktop\Portafolio2_RestauranteFamiliar\WPF_Restaurante\bin\Debug\WPF_Restaurante.exe
+C:\Users\MT\Desktop\Portafolio2_RestauranteFamiliar\WPF_Restaurante\bin\Debug\WPF_Restaurante.pdb
+C:\Users\MT\Desktop\Portafolio2_RestauranteFamiliar\WPF_Restaurante\bin\Debug\Portafolio2_Restaurante.dll
+C:\Users\MT\Desktop\Portafolio2_RestauranteFamiliar\WPF_Restaurante\bin\Debug\Portafolio2_Restaurante.pdb
+C:\Users\MT\Desktop\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\WPF_Restaurante.csprojResolveAssemblyReference.cache
+C:\Users\MT\Desktop\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_Adm.baml
+C:\Users\MT\Desktop\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_DistribuidoresAlmacen.baml
+C:\Users\MT\Desktop\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_ExistenciaAlmacen.baml
+C:\Users\MT\Desktop\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_ListadoFacturas.baml
+C:\Users\MT\Desktop\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_PlatillosIngredientes.baml
+C:\Users\MT\Desktop\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_Reservacion.baml
+C:\Users\MT\Desktop\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_Adm.g.cs
+C:\Users\MT\Desktop\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_DistribuidoresAlmacen.g.cs
+C:\Users\MT\Desktop\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_ExistenciaAlmacen.g.cs
+C:\Users\MT\Desktop\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_ListadoFacturas.g.cs
+C:\Users\MT\Desktop\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_PlatillosIngredientes.g.cs
+C:\Users\MT\Desktop\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\Ventana_Reservacion.g.cs
+C:\Users\MT\Desktop\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\App.g.cs
+C:\Users\MT\Desktop\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\WPF_Restaurante_MarkupCompile.cache
+C:\Users\MT\Desktop\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\WPF_Restaurante.g.resources
+C:\Users\MT\Desktop\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\WPF_Restaurante.Properties.Resources.resources
+C:\Users\MT\Desktop\Portafolio2_RestauranteFamiliar\WPF_Restaurante\obj\Debug\WPF_Restaurante.csproj.GenerateResource.Cache

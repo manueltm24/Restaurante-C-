@@ -1,0 +1,96 @@
+﻿<Window x:Class="WPF_Restaurante.Ventana_DistribuidoresAlmacen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Distribuidores/Almacen" Height="600" Width="700" WindowState="Maximized" WindowStartupLocation="CenterScreen" Foreground="#FF222222">
+    <Grid>
+        <StackPanel>
+            <WrapPanel Margin="5">
+                <Button Content="Inicio" Margin="5 0" Click="Button_Click"/>
+                <Button Content="Platillos/Ingredientes" Margin="5 0" Click="Button_Click_1"/>
+                <Button Content="Distribuidores/Almacen" Margin="5 0"/>
+                <Button Content="Reservacion/Mesa" Margin="5 0" Click="Button_Click_5"/>
+            </WrapPanel>
+            <TabControl>
+                <TabItem Header="Distribuidores">
+                    <Grid Background="#FFE5E5E5">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <StackPanel Grid.Column="0" Margin="5">
+                            <ListView ItemsSource="{Binding ListadoDistribuidores}" SelectedItem="{Binding DistribuidorActual}" IsSynchronizedWithCurrentItem="True">
+                                <ListView.View>
+                                    <GridView>
+                                        <GridViewColumn Header="RNC" DisplayMemberBinding="{Binding RNC}"/>
+                                        <GridViewColumn Header="Nombre" DisplayMemberBinding="{Binding Nombre}"/>
+                                    </GridView>
+                                </ListView.View>
+                            </ListView>
+                            <Button Content="Agregar Distribuidor" Margin="5" Click="Button_Click_2"/>
+                        </StackPanel>
+                        <StackPanel Grid.Column="1" Margin="5 0">
+                            <WrapPanel>
+                                <Label Content="RNC"/>
+                                <TextBox Text="{Binding DistribuidorActual.RNC}" Width="70" Height="23"/>
+                                <Label Content="Nombre"/>
+                                <TextBox Text="{Binding DistribuidorActual.Nombre}" Width="Auto" Height="23"/>
+                                <Label Content="Dias de entrega"/>
+                                <ComboBox Width="120" SelectedValue="{Binding DistribuidorActual.DiaDeEntrega}" ItemsSource="{Binding Dias}" DisplayMemberPath="Value" SelectedValuePath="Key"/>
+                                <Label Content="% menos por retraso"/>
+                                <TextBox Text="{Binding DistribuidorActual.PorcientoMenosPorRetraso}" Width="Auto" Height="23"/>
+                            </WrapPanel>
+                            <GroupBox Header="Lista de ingredientes">
+                                <StackPanel>
+                                    <ListView Height="200" ItemsSource="{Binding DistribuidorActual.Ingredientes}" IsSynchronizedWithCurrentItem="True">
+                                        <ListView.View>
+                                            <GridView>
+                                                <GridViewColumn Header="Nombre" DisplayMemberBinding="{Binding Tipo.Nombre}"/>
+                                                <GridViewColumn Header="Cantidad" DisplayMemberBinding="{Binding Cantidad}"/>
+                                                <GridViewColumn Header="Precio" DisplayMemberBinding="{Binding Tipo.Precio}"/>
+                                            </GridView>
+                                        </ListView.View>
+                                    </ListView>
+                                    <Label Content="Añadir"/>
+                                    <ComboBox ItemsSource="{Binding ListadoIngredientes}" SelectedValue="{Binding IngredienteAgregar}"/>
+                                    <Label Content="Cantidad"/>
+                                    <TextBox Text="{Binding CantidadIngredienteAgregar}"/>
+                                    <Button Content="Añadir ingrediente" Click="Button_Click_4"/>
+                                    <WrapPanel>
+                                        <Label Content="Total: $"/>
+                                        <Label Content="{Binding DistribuidorActual.Total}"/>
+                                    </WrapPanel>
+                                    <Button Content="Guardar distribuidor" Click="Button_Click_7"/>
+                                </StackPanel>
+                            </GroupBox>
+                        </StackPanel>
+                    </Grid>
+                </TabItem>
+                <TabItem Header="Almacen">
+                    <Grid Background="#FFE5E5E5">
+                        <StackPanel>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+                              
+                                <StackPanel Grid.Column="0">
+                                    <WrapPanel>
+                                        <Label Content="Fecha"/>
+                                        <DatePicker SelectedDate="{Binding Almacen.Fecha}"/>
+                                        <Label Content="Distribuidor"/>
+                                        <ComboBox Width="120" HorizontalAlignment="Left" ItemsSource="{Binding ListadoDistribuidores}" SelectedItem="{Binding DistribuidorActual}" IsSynchronizedWithCurrentItem="True"/>
+                                    </WrapPanel>
+                                    </StackPanel>
+                                <WrapPanel Grid.Column="1">
+                                    <Button Content="Existencias en Almacen" Width="150" Margin="5 0" Click="Button_Click_3"/>
+                                </WrapPanel>
+                            </Grid>
+                            <Button Content="Pedido entrante recibido" Click="Button_Click_6"/>
+                        </StackPanel>
+                    </Grid>
+                </TabItem>
+            </TabControl>
+        </StackPanel>
+    </Grid>
+</Window>
