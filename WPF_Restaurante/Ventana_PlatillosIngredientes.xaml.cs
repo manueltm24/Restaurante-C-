@@ -10,6 +10,7 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Media.Animation;
 using System.Windows.Shapes;
 using WPF_Restaurante.VW_Model;
 using Portafolio2_Restaurante.Clases;
@@ -22,6 +23,7 @@ namespace WPF_Restaurante
     /// </summary>
     public partial class Ventana_PlatillosIngredientes : Window
     {
+        DoubleAnimation fadeInAnimation;
         public VM_Model ViewModel { get; set; }
         public Ventana_PlatillosIngredientes()
         {
@@ -32,6 +34,12 @@ namespace WPF_Restaurante
             ViewModel.PlatilloActual = ViewModel.ListadoPlatillos[0];
             ViewModel.IngredienteActual = ViewModel.ListadoIngredientes[0];
             DataContext = ViewModel;
+            platilloForm.Opacity = 0;
+            fadeInAnimation = new DoubleAnimation();
+            fadeInAnimation.From = 0;
+            fadeInAnimation.To = 1;
+            fadeInAnimation.Duration = new Duration(TimeSpan.FromMilliseconds(500));
+
         }
 
         public void DesHabilitador()
@@ -56,8 +64,12 @@ namespace WPF_Restaurante
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
+            platilloForm.BeginAnimation(StackPanel.OpacityProperty, fadeInAnimation);
             ViewModel.ListadoPlatillos.Add(new Platillo(ViewModel.ListadoPlatillos.Count+1,new ObservableCollection<Ingrediente>()));
+            ViewModel.PlatilloActual = ViewModel.ListadoPlatillos.Last();
+            platilloName.Focus();
         }
+
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {

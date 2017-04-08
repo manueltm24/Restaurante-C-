@@ -30,12 +30,10 @@
                             <Button Content="Agregar platillo" Margin="5" Click="Button_Click_1"/>
                             <Button Content="Eliminar platillo seleccionado" Margin="5" Click="Button_Click_8"/>
                         </StackPanel>
-                        <StackPanel Grid.Column="1" Margin="5 0">
+                        <StackPanel Grid.Column="1" Margin="5 0" Name="platilloForm">
                             <WrapPanel>
-                                <Label Content="Id"/>
-                                <TextBox Text="{Binding PlatilloActual.Id}" Width="70" Height="23" IsEnabled="False"/>
                                 <Label Content="Nombre"/>
-                                <TextBox Text="{Binding PlatilloActual.Nombre}" Width="140" Height="23"/>
+                                <TextBox Text="{Binding PlatilloActual.Nombre}" Width="140" Height="23" Name="platilloName"/>
                                 <Label Content="Precio"/>
                                 <TextBox Text="{Binding PlatilloActual.Precio}" Width="70" Height="23"/>
                             </WrapPanel>
